@@ -11,3 +11,4 @@ for PORT in "${PORTS[@]}"; do
     sudo kill -9 $PID
   fi
 done
+docker compose up -d
